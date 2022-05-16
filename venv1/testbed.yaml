@@ -1,0 +1,32 @@
+testbed:
+    name: IOS_Testbed
+    credentials:
+        default:
+            username: admin
+            password: Admin_1234!
+        enable:
+            password: cisco
+
+devices:
+    LEAF1: # <----- must match to your device hostname in the prompt
+        os: nxos
+        type: nxos
+        connections:
+            a:
+                protocol: ssh
+                ip: 131.226.217.151
+
+topology:
+    LEAF1:
+        interfaces:
+            GigabitEthernet0/0:
+                ipv4: 10.10.10.1/24
+                ipv6: '10:10:10::1/64'
+                link: link-1
+                type: ethernet
+            Loopback0:
+                ipv4: 192.168.0.1/32
+                ipv6: '192::1/128'
+                link: ios1_Loopback0
+                type: loopback
+

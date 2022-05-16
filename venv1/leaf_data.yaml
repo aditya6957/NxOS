@@ -1,0 +1,13 @@
+# datafile for LEAF
+# see https://pubhub.devnetcloud.com/media/pyats/docs/aetest/datafile.html#
+# for how to use datafiles
+
+testcases: 
+
+    TC1:     
+        uid: TC1
+        
+
+    TC2:     
+        uid: TC2
+        
