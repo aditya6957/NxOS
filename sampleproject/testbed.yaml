@@ -1,0 +1,15 @@
+testbed:
+    name: sample_testbed
+
+devices:
+      sandbox-nxos-1.cisco.com:
+        os: nxos
+        type: nxos
+        connections:
+          cli:
+            protocol: ssh
+            ip: 131.226.217.151
+        credentials:
+          default:
+            username: admin
+            password: Admin_1234!
