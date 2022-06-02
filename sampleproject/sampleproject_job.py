@@ -20,8 +20,8 @@ from genie.harness.main import gRun
 def main():
     gRun(
 	pdb=False,
-	TriggerGetRunningConfig="sampleproject_data.yaml",
+	trigger_datafile="sampleproject_data.yaml",
 	trigger_uids=[
-	    "TriggerGetRunningConfig"
+	    "TriggerGetRunningConfig", "TriggerShowVrf", "TriggerShowVlan"
 	]
 	)

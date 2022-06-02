@@ -7,7 +7,21 @@ TriggerGetRunningConfig:
       pkg: sampleproject
       class: GetRunningConfig
     devices:
-      - sandbox-nxos-1.cisco.com
+      - Whatever
+
+TriggerShowVrf:
+    source:
+      pkg: sampleproject
+      class: ShowVrf
+    devices:
+      - Whatever
+
+TriggerShowVlan:
+    source:
+      pkg: sampleproject
+      class: ShowVlan
+    devices:
+      - Whatever
 
 
     

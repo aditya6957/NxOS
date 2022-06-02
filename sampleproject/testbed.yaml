@@ -2,7 +2,7 @@ testbed:
     name: sample_testbed
 
 devices:
-      sandbox-nxos-1.cisco.com:
+      Whatever:
         os: nxos
         type: nxos
         connections:
